@@ -1,0 +1,2 @@
+# MediareCorderDemo
+MediareCorderDemo视频录制小demo，包括上传本地选择
