@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_up"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="拍摄并上传视频" />
+
+    <TextView
+        android:id="@+id/tv_up"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="正在上传视频。。。"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bt_down"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="下载视频" />
+
+    <TextView
+        android:id="@+id/tv_down"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="正在下载视频。。。"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bt_local_up"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="本地上传视频" />
+
+    <Button
+        android:id="@+id/bofang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="播放"
+        android:visibility="gone" />
+
+    <SurfaceView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:visibility="gone" />
+
+</LinearLayout>
